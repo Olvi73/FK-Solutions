@@ -1,5 +1,6 @@
-#include<iostream>
-#include<algorithm>
+//#include<iostream>
+//#include<algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 //从大到小排序 
 bool complare(int a,int b)
@@ -10,6 +11,7 @@ bool complare(int a,int b)
 int main()
 {
    int a[10]={9,6,3,8,5,2,7,4,1,0};
+   int b[10]={9,6,3,8,5,2,7,4,1,0};
    for(int i=0;i<10;i++)
    cout<<a[i]<<"  ";
    cout<<endl; 
@@ -19,5 +21,6 @@ int main()
    for(int i=0;i<10;i++)
    cout<<a[i]<<"  ";
    cout<<endl;
+   
    return 0;
 }
